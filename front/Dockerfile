@@ -1,5 +1,5 @@
 FROM node:18-alpine
-WORKDIR /hub-site/
+WORKDIR /front/
 COPY public/
 COPY src/
 COPY package.json
